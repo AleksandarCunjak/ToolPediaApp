@@ -1,0 +1,64 @@
+  .categories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .category {
+    position: relative;
+    margin-right: 20px; /* Ovde možete prilagoditi razmak između kategorija */
+  }
+  
+  .main-category {
+    background-color: #ffffff; /* Boja pozadine glavne kategorije */
+    padding: 10px 20px; /* Veličina i razmak unutar glavne kategorije */
+    border: black, 2px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif; /* Podešavanje fonta na Roboto */
+    font-weight: bold; /* Podešavanje debljine teksta na bold */
+    font-size: 18px;
+  }
+
+  
+.main-category:hover {
+  background-color: black; /* Promena boje pozadine prilikom prelaska miša */
+  color: white; /* Promena boje teksta prilikom prelaska miša */
+}
+  
+.sub-categories {
+  display: none; /* Podrazumevano skrivene */
+  position: absolute; /* Apolutno pozicioniranje u odnosu na glavnu kategoriju */
+  top: 100%; /* Pomeranje ispod glavne kategorije */
+  left: 0; /* Poravnavanje sa početkom glavne kategorije */
+  background-color: #ffffff; /* Boja pozadine podkategorija */
+  border: 2px solid black; /* Granica podkategorija */
+  width: 100%; /* Postavljanje sirine na velicinu sadrzaja */
+  margin-left: auto; /* Centriranje podkategorija unutar glavne kategorije */
+  margin-right: auto; /* Centriranje podkategorija unutar glavne kategorije */
+
+}
+
+.category:hover .sub-categories {
+  display: block; /* Prikazivanje podkategorija prilikom prelaska miša preko glavne kategorije */
+}
+  
+  .sub-categories button {
+    display: block;
+    background-color: transparent; /* Boja pozadine dugmadi */
+    border: none;
+    padding: 5px 0; /* Veličina i razmak dugmadi */
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif; /* Podešavanje fonta na Roboto */
+    font-weight: bold; /* Podešavanje debljine teksta na bold */
+    font-size: 15px;
+  }
+  
+  .sub-categories button:hover {
+    background-color: #020202; /* Boja pozadine dugmeta pri prelasku preko njega */
+    color:#ffffff
+  }
+  

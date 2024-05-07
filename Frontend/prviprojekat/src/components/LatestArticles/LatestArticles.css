@@ -1,0 +1,26 @@
+.articleShowcase {
+  /* background-image: url("../../Images/Articles/shaomi.jpg");
+  transition: transform 0.3s ease;
+  overflow: hidden;
+  background-repeat: no-repeat; */
+  position: relative;
+  overflow: hidden;
+}
+
+.articleShowcaseImage {
+  height: 100%;
+  transition: transform 0.9s ease;
+}
+
+.articleShowcaseImage:hover {
+  transform: scale(1.05);
+}
+
+.title {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  font-size: 2rem;
+}

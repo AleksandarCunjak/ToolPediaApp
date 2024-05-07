@@ -1,0 +1,57 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+
+  .newsletter-section {
+    flex: 1;
+  }
+  
+  .social-section, .legal-section, .contact-section {
+    flex: 2;
+  }
+  .legal-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .legal-section li {
+    margin-bottom: 5px;
+  }
+  
+  .contact-section p {
+    margin: 5px 0;
+  }
+  
+  .footer-column {
+    width: calc(100% / 3);
+    margin-bottom: 20px;
+  }
+  
+  .footer-column:last-child {
+    width: 100%;
+  }
+  
+  
+  .footer-logo img {
+    width: 100px; /* Prilagodite veličinu prema vašim potrebama */
+    height: auto;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    color: #000; /* Promijenite boju ikonica prema vašem dizajnu */
+  }
+  
+  .legal-pages a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    margin-bottom: 5px;
+  }
+  

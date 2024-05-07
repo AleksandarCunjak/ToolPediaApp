@@ -1,0 +1,18 @@
+.login-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center; width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .login-icon:hover {
+    background-color: #444;
+  }
+  
+  .login-icon i {
+    font-size: 1.5rem;
+  }

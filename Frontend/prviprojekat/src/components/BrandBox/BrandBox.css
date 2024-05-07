@@ -1,0 +1,37 @@
+/* .brands-box {
+  width: 400px; 
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 50px;
+  display: inline-block;
+} */
+
+.brand-link {
+  width: calc(50% - 10px); /* Postavljamo veličinu slika */
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.brands-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.brand-image {
+  width: 100%; /* Slika popunjava širinu roditeljskog elementa */
+  margin: 10px;
+}
+
+.brand-name {
+  display: block;
+  margin-top: 10px;
+}
+
+.toolbrands {
+  font-size: 16px;
+  font-weight: bold; /* Dodajemo boldiranje */
+  text-align: center; /* Centriramo tekst */
+  font-family: "Roboto", sans-serif; /* Koristimo font Roboto */
+}

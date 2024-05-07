@@ -1,0 +1,44 @@
+.newsletter {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .newsletter h2 {
+    margin-bottom: 10px;
+  }
+  
+  .newsletter form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .newsletter input[type='email'],
+  .newsletter input[type='checkbox'],
+  .newsletter button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .newsletter button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .newsletter button:hover {
+    background-color: #0056b3;
+  }
+  
+  .newsletter label {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Dodatni stilovi po potrebi */
+  
